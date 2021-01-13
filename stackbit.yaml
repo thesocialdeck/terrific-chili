@@ -40,11 +40,6 @@ models:
         description: Site title
         required: true
       - type: string
-        name: subtitle
-        label: Subtitle
-        description: Site subtitle
-        required: true
-      - type: string
         name: baseurl
         label: Base URL
         description: Serve the website from the given base URL
@@ -119,7 +114,11 @@ models:
       - type: string
         name: title
         label: Header Title
-        description: The title displayed in the header if logo image not specified
+        description: The title displayed in the header
+      - type: string
+        name: title
+        label: Header Subtitle
+        description: The subtitle displayed in the header
       - type: image
         name: logo
         label: Logo
