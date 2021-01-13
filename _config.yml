@@ -25,6 +25,7 @@ header:
     - label: Contact Us
       url: /contact
       style: primary
+  logo: images/header-logo-agov.png
 footer:
   has_nav: true
   nav_links:
@@ -49,8 +50,9 @@ footer:
       style: link
       new_window: true
   content: >-
-    &copy; Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted,
-    this work is licensed under the <a href="https://github.com/govau/design-system-starter/blob/master/LICENSE"
+    &copy; Commonwealth of Australia. With the exception of the Commonwealth
+    Coat of Arms and where otherwise noted, this work is licensed under the <a
+    href="https://github.com/govau/design-system-starter/blob/master/LICENSE"
     rel="external">MIT license</a>
 sass:
   indentWidth: 4
