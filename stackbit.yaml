@@ -40,6 +40,11 @@ models:
         description: Site title
         required: true
       - type: string
+        name: subtitle
+        label: Subtitle
+        description: Site subtitle
+        required: true
+      - type: string
         name: baseurl
         label: Base URL
         description: Serve the website from the given base URL

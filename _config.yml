@@ -6,7 +6,8 @@ collections:
     permalink: '/posts/:title/'
 description: An ultra customizable generic theme for Stackbit
 header:
-  title: Starter
+  title: 2020 Review
+  subtitle: Disability Standards for Education 2005
   has_nav: true
   nav_links:
     - label: Features
