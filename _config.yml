@@ -6,7 +6,7 @@ collections:
     permalink: '/posts/:title/'
 description: The Australian Government Design System as a theme
 header:
-  title: 2020 Review
+  title: 2020 Reviewx
   subtitle: Disability Standards for Education 2005
   has_nav: true
   nav_links:
