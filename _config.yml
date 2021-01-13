@@ -1,10 +1,10 @@
-title: Stackbit Starter Theme
+title: The Social Deck - Gov Design System Theme
 baseurl: /
 permalink: '/:title/'
 collections:
   posts:
     permalink: '/posts/:title/'
-description: An ultra customizable generic theme for Stackbit
+description: The Australian Government Design System as a theme
 header:
   title: 2020 Review
   subtitle: Disability Standards for Education 2005
