@@ -48,11 +48,9 @@ footer:
       style: link
       new_window: true
   content: >-
-    &copy; Stackbit. All rights reserved. This Jamstack site was created with <a
-    href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
-    rel="noopener">Stackbit</a>. Create yours <a
-    href="https://app.stackbit.com/create?theme=starter&utm_source=deployed-footer"
-    target="_blank" rel="noopener">now</a>
+    &copy; Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted,
+    this work is licensed under the <a href="https://github.com/govau/design-system-starter/blob/master/LICENSE"
+    rel="external">MIT license</a>
 sass:
   indentWidth: 4
   style: compressed
