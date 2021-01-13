@@ -10,9 +10,18 @@
     <div class="row">
       <div class="col-sm-8">
         <a class="au-header__brand" href="{{ '/' | relative_url }}">
-          <img class="au-header__brand-image"
-               alt="{{ site.header.logo_alt }}"
-               src="{{ site.header.logo | relative_url }}">
+
+          {% assign logo_is_not_empty = site.header.logo | is_not_empty %}
+          {% if logo_is_not_empty %}
+            <img class="au-header__brand-image"
+                 alt="{{ site.header.logo_alt }}"
+                 src="{{ site.header.logo | relative_url }}">
+          {% else %}
+            <img class="au-header__brand-image"
+                 alt="{{ site.header.logo_alt }}"
+               src="/images/header-logo-agov.png">
+          {% endif %}
+
           <div class="au-header__text">
             <h1 class="au-header__heading">{{ site.header.title }}</h1>
             <div class="au-header__subline">{{ site.header.subtitle }}</div>
