@@ -116,7 +116,7 @@ models:
         label: Header Title
         description: The title displayed in the header
       - type: string
-        name: title
+        name: subtitle
         label: Header Subtitle
         description: The subtitle displayed in the header
       - type: image
